@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
+
+    <!--Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Meu portifolio</title>
+    <style>
+        @media (max-width: 600px){
+            .menu-container{
+                flex-direction: column;
+                text-align: center;
+            }
+            .container{
+            flex-direction: column;
+                text-align: center;
+                margin-left: -32px;
+            }
+            .about{
+                flex-direction: column;
+                margin-top: 10px;
+            }
+            .card-container{
+                flex-direction: column;
+            }
+            .habilidades{
+                flex-direction: column;
+                text-align: center;
+                margin-right: 50px;
+            }
+            
+            .progress-container{
+                flex-direction: column;
+            }
+            .contact{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="menu-container">
+
+            <div class="logo">
+                <h1>Brand</h1>
+            </div>
+            <div>
+                <ul>
+                    <section>
+                        <li>
+                            <a href="#sec1">Home</a>
+                        </li>
+                    </section>
+                    <li>
+                        <a href="#sec2">Meu perfil</a>
+                    </li>
+                    <li>
+                        <a href="#sec3">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="#sec4">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner" id="sec1">
+
+        <div class="container">
+            <div>
+                <h5>Olá, eu sou</h5>
+                <h1>Breno Rodrigues</h1>
+                <p>Web developer</p>
+
+                <div class="buttons">
+                    <a class="btn" href="#">SOBRE</a>
+                    <a class="btn" href="#">DOWLOAD CV<a>
+                </div>
+                <div class="mt-5">
+                    <div class="socials socials-banner">
+                        <a class="social-item" href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a class="social-item" href="https://www.instagram.com/breno_bass18/" target="_blank"><i
+                                class='bx bxl-instagram-alt'></i></a>
+                        <a class="social-item" href=""><i class='bx bxl-github'></i></a>
+                        <a class="social-item" href=""><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="widget">
+            <div class="item">
+                <h2>0</h2>
+                <p>Clientes satisfeitos</p>
+            </div>
+            <div class="item">
+                <h2>0</h2>
+                <p>Projetos completos</p>
+            </div>
+            <div class="item">
+                <h2>0</h2>
+                <p>Tecnologias aplicadas</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="sec2">
+        <div class="container">
+            <div class="about">
+                <div class="col-md-3 col-12">
+                    <img src="/assets/img/Bbass.jpg" width="300" alt="Foto de perfil">
+                </div>
+                <div class="col-md-9 col-12">
+                    <h1>Breno rodrigues</h1>
+                    <h2>Web Developer</h2>
+                    <p class="mt-3">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem atque obcaecati
+                        ipsa excepturi omnis cupiditate et, voluptatem, perferendis in beatae unde quam aspernatur,
+                        quisquam velit iusto officiis quis dolorem.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem atque obcaecati
+                        ipsa excepturi omnis cupiditate et, voluptatem, perferendis in beatae unde quam aspernatur,
+                        quisquam velit iusto officiis quis dolorem.
+                    </p>
+
+                    <div>
+                        <a class="btn" href="#">DOWLOAD CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skils" id="sec3">
+        <div class="container">
+            <h5 class="subtitle">Serviços</h5>
+            <h3 class="title">Área de atuação</h3>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facilis rerum quo quibusdam
+                ducimus ut, sit
+                voluptatibus aut consequatur, assumenda qui ratione, ipsam adipisci? Nisi optio corrupti sint
+                dignissimos vel.</p>
+
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-body">
+                        <i class='bx bx-laptop'></i>
+                        <h5>Web developer</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class='bx bx-palette'></i>
+                        <h5>UI/UX Designer</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class='bx bxl-apple'></i>
+                        <h5>App Design</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <i class='bx bx-data'></i>
+                        <h5>Data Science</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container habilidades">
+            <h5 class="subtitle">Habilidades</h5>
+            <h3 class="title">Área de Habilidades</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facilis rerum quo quibusdam ducimus br ut,
+                sit voluptatibus aut consequatur, assumenda qui ratione, ipsam adipisci? Nisi optio corrupti sint
+                dignissimos vel.</p>
+
+            <div class="progress-container">
+                <div class="col-sn-6">
+                    <h5>Web Desing</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 89%">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sn-6">
+                    <h5>Game Maker</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="col-sn-6">
+                    <h5>Web Developer</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sn-6">
+                    <h5>Desing De Games</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:65%">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </section>
+
+    <section class="section">
+        <div class="container text-center">
+            <h5 class="subtitle">Portifolio</h5>
+            <h3 class="title">Confira meus trabalhos</h3>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, fuga! Perspiciatis quos
+                dolor quidem,
+                eum tenetur sit voluptatibus natus cumque doloribus quisquam rem et cum repellat consequuntur ipsum
+                doloremque excepturi!</p>
+
+            <div class="img-wrapper-container mt-5">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/img/folio-1.jpg" alt="projeto1">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Título do projeto</h5>
+                                <a href="#"><i class="bx bx-search-alt-2"></i></a>
+                                <a href="#"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/img/folio-2.jpg" alt="projeto2">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Título do projeto</h5>
+                                <a href="#"><i class="bx bx-search-alt-2"></i></a>
+                                <a href="#"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/img/folio-3.jpg" alt="projeto3">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Título do projeto</h5>
+                                <a href="#"><i class="bx bx-search-alt-2"></i></a>
+                                <a href="#"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/img/folio-4.jpg" alt="projeto4">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Título do projeto</h5>
+                                <a href="#"><i class="bx bx-search-alt-2"></i></a>
+                                <a href="#"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="assets/img/folio-5.jpg" alt="projeto5">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Título do projeto</h5>
+                                <a href="#"><i class="bx bx-search-alt-2"></i></a>
+                                <a href="#"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/img/folio-6.jpg" alt="projeto6">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Título do projeto</h5>
+                                <a href="#"><i class="bx bx-search-alt-2"></i></a>
+                                <a href="#"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="sec4">
+        <div class="container text-center">
+            <h5 class="subtitle">Contato</h5>
+            <h3 class="title">Entre em contato comigo</h3>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, fuga! Perspiciatis quos
+                dolor quidem,
+                eum tenetur sit voluptatibus natus cumque doloribus quisquam rem et cum repellat consequuntur ipsum
+                doloremque excepturi!</p>
+            <div class="contact mt-5">
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Qual o seu nome?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="Seu melhor e-mail" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="phone" placeholder="Seu whatsapp" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" type="text" placeholder="Descreva sua mensagem..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar mensagem!</button>
+                    </form>
+                </div>
+
+
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class='bx bxs-edit-location'></i>
+                        <div>
+                            <h5>Endereço</h5>
+                            <p>Rua desembargador,<br>sales, bairro parnaiba, nº 776</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <i class='bx bxs-phone-call'></i>
+                        <div>
+                            <h5>Telefone</h5>
+                            <p>(86) 99498-8623</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <i class='bx bxs-paper-plane'></i>
+                        <div>
+                            <h5>E-mail</h5>
+                            <p>rodrigues18.br@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.658663805149!2d-41.78087512605314!3d-2.9141927970621886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ec2fe04a127e29%3A0x343d1f4740bb89e9!2sR.%20Des.%20S%C3%A1les%20-%20Nova%20Parna%C3%ADba%2C%20Parna%C3%ADba%20-%20PI%2C%2064218-450!5e0!3m2!1spt-BR!2sbr!4v1695471815993!5m2!1spt-BR!2sbr"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="col-sm-6">
+                    <p>
+                        copyright &copy; <a href="https://programe.io/programeio-1.0-SNAPSHOT/index.xhtml"
+                            target="_blank">Progame.io</a>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a class="social-item" href=""><i class='bx bxl-instagram-alt'></i></a>
+                        <a class="social-item" href=""><i class='bx bxl-github'></i></a>
+                        <a class="social-item" href=""><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+
+</html>

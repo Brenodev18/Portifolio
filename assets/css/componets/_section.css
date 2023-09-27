@@ -1,0 +1,9 @@
+.section{
+    position: relative;
+    padding: 60px 10px;
+}
+
+.section a:hover{
+   
+    color: var(--primary);
+}

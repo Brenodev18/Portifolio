@@ -1,0 +1,40 @@
+.section .habilidades{
+     text-align: center;
+}
+
+.progress, .progress-bar, .progress-container{
+    display: flex;
+}
+
+.progress-container{
+    align-items: center;
+    justify-content:center;
+    max-width: 1000;
+    margin: 30px auto;
+}
+
+.progress-container h5, .progress-bar{
+    text-align: center;
+}
+
+.progress-container h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.progress{
+    height: 1rem;
+    width: 30rem;
+    margin: 20px;
+    font-size: 14px;
+    background-color: var(--color-gray-medium);
+    border-radius: 5px;
+}
+
+.progress-bar{
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+    white-space: nowrap;
+    background-color: var(--primary);
+}
